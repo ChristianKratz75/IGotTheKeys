@@ -1,0 +1,31 @@
+<Settings>
+	<Vereine>
+		<Verein 
+			Name="Eisbachmusikanten" 
+			Pfad="/home/christian/eclipse-workspace/Daten/Eisbachmusikanten"
+			Datenbank = "/home/christian/eclipse-workspace/Daten/Eisbachmusikanten/Eisbachmusikanten.sqlite"
+			Pfad_Backup="/home/christian/eclipse-workspace/Daten/Eisbachmusikanten/Backup/"
+			PDFQuelle = "/home/christian/Downloads/"
+		>
+		</Verein>
+		<Verein 
+			Name="MSBB" 
+			Pfad="/home/christian/eclipse-workspace/Daten/MSBB"
+			Datenbank = "/home/christian/eclipse-workspace/Daten/MSBB/MSBB.sqlite"
+			Pfad_Backup="/home/christian/eclipse-workspace/Daten/MSBB/Backup/"
+			PDFQuelle = "/home/christian/Downloads/"
+		>
+		</Verein>
+	</Vereine>
+	
+	<Verzeichnisse>
+		<Verzeichnis Name="Pfad_Backup" Pfad="C:/Users/kratz/Documents/iGotTheKeys/Backup/"></Verzeichnis>
+	</Verzeichnisse>
+	
+	<Programme>
+		<Program Name="Ghostscript" Parameter="-q -dBATCH -dNOPAUSE -dNOOUTERSAVE -sDEVICE=pdfwrite -sPAPERSIZE=a4 "
+		Command="ghostscript"></Program>
+	</Programme>
+	
+</Settings>
+
